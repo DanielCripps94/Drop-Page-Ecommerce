@@ -7,14 +7,17 @@ class NavBar extends Component {
             <div className='header--Container'>
                 <div className='link--Container'>
                     <div className='header--box1'>
-                        <h1>Project List</h1>
+                        <h1>Daniel Cripps</h1>
                     </div>
                     <div className='header--box2'>
-                        <h1> Project Update</h1>
+                        <h1> Pricing</h1>
                     </div>
                     <div className='header--box3'>
-                        <h1>Start New Project</h1>
-                    </div>   
+                        <h1> Solutions</h1>
+                    </div>  
+                    <div className='header--box4'>
+                        <h1> Sign In</h1>
+                    </div>  
                 </div>
             </div>
         )
