@@ -37,33 +37,58 @@
   }
 } */
 
-.header--Container {
-  background: #180D01;
-  justify-content: space-between;
-  text-decoration: none;
-  align-items: flex-start;
-  font-size: 0.5rem;
-  width: 100%;
-  position: fixed
-  
+
+@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@700&display=swap');
+
+
+
+.header--container {
+  background: white;
+  width: 95%;
+  border-bottom: 5px solid red;
+  margin-left: 2rem
+   
 }
 
-.link--Container {
+.logo--container h1{
+  color: black;
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: 'Hepta Slab', serif;
+  margin-left: 1rem
+}
+
+.divider {
+  flex: 1
+}
+
+.link--container {
   display: flex;
-  width: 80%;
-  margin: 0 auto;
-  justify-content: space-between;
+  align-items: center;
+  width: 100%
 }
 
-.link--Container h1 {
-  color: white
+.navbar--items ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-family: 'Hepta Slab', serif;
 }
 
-.header--box1 {
-left: 0px
-
+.navbar--items li {
+  padding: 0 0.5rem;
 }
 
-a {
+.navbar--items li {
+  color: black;
   text-decoration: none;
 }
+
+.navbar--items li:hover,
+.navbar--items li:active {
+  color: orange;
+}
+
+
+

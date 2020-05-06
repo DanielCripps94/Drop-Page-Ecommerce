@@ -4,10 +4,12 @@ class NavBar extends Component {
 
     render( ) {
         return (
-            <header className='header--Container'>
-                <nav className='link--Container'>
-                    <div className='header--box1'><h1>Daniel Cripps</h1></div>
-                    <div className='navbar_items'>
+            <header className='header--container'>
+                <nav className='link--container'>
+                    <div></div>
+                    <div className='logo--container'><h1>Daniel Cripps</h1></div>
+                    <div className='divider' />
+                    <div className='navbar--items'>
                         <ul>
                             <li> Pricing</li>
                             <li> Services</li>

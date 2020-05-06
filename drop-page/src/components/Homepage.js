@@ -5,9 +5,9 @@ class Homepage extends Component {
 
     render() {
         return (
-            <div>
-                <NavBar/>
-            </div>
+           
+             <NavBar/>
+            
         )
     }
 }
