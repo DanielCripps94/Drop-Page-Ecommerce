@@ -43,12 +43,14 @@
   text-decoration: none;
   align-items: flex-start;
   font-size: 0.5rem;
+  width: 100%;
+  position: fixed
   
 }
 
 .link--Container {
   display: flex;
-  width: 30%;
+  width: 80%;
   margin: 0 auto;
   justify-content: space-between;
 }
@@ -58,6 +60,7 @@
 }
 
 .header--box1 {
+left: 0px
 
 }
 
