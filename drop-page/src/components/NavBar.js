@@ -7,7 +7,7 @@ class NavBar extends Component {
             <header className='header--container'>
                 <nav className='link--container'>
                     <div></div>
-                    <div className='logo--container'><img src="/images/logo.png" alt=""/> </div>
+                    <div className='logo--container'><img src="/images/logo2.png" alt=""/> </div>
                     <div className='divider' />
                     <div className='navbar--items'>
                         <ul>

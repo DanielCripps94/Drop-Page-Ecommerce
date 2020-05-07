@@ -39,15 +39,17 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100&display=swap');
+
 
 
 
 .header--container {
   background: white;
   width: 95%;
-  border-bottom: 3px solid grey;
-  margin-left: 2rem
-   
+  border-bottom: 1.5px solid grey;
+  margin-left: 2rem;
+  margin-bottom: 3rem
 }
 
 .logo--container img{
@@ -69,12 +71,12 @@ height: 5rem
   display: flex;
   margin: 0;
   padding: 0;
-  font-family: 'Hepta Slab', serif;
+  font-family: 'Spartan', sans-serif;
   position: relative;
   font-size: 0.6rem;
-  top: 2rem
+  top: 2rem;
+  font-weight: bolder;
 }
-
 
 .navbar--items li {
   color: black;
@@ -89,8 +91,45 @@ height: 5rem
 
 .info--container {
   text-align: center;
-  font-family: 'Hepta Slab', serif ;
+  font-family: 'Spartan', sans-serif;  
 }
 
+.homepageimage--container img {
+  height: 35rem
+}
 
+.depth--container {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: bolder;
+}
+
+.banner--container h1 {
+
+}
+
+.banner--container h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid grey; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  margin-bottom: 3rem;
+  /* letter-spacing: .15em; Adjust as needed */
+  animation: 
+    typing 3.5s steps(20, end),
+    blink-caret  1s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: grey; }
+}
 
