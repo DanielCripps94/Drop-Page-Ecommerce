@@ -2,7 +2,20 @@ import React, { Component } from 'react'
 
 export default class CompanyInfo extends Component {
 
+    state = {
+        email: ''
+    }
+
+    handleOnChange = (e) => {
+        this.setState({
+            [e.target.name] :e.target.value
+        })
+    }
+
     render() {
+
+        const { handleOnChange} = this
+
         return (
                 <div className='info--container'> 
                     <div className='banner--container'>
@@ -11,7 +24,7 @@ export default class CompanyInfo extends Component {
                     </div>
                     <div className='signup--container'>
                         <p>Enter Email Address for free consultation</p>
-                        <input type="text" name="username" placeholder="email address" required="required" />
+                        <input type="text" name="email" placeholder="email address" required="required" onChange={handleOnChange}/>
                     </div>
                     <div className='homepageimage--container'><img src="/images/homepage.png" alt=""/> </div>
                 </div>

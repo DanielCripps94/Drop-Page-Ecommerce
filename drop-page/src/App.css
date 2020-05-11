@@ -109,8 +109,8 @@ height: 5rem
   margin-top: 1rem;
   display: flex;
   margin: 0 auto;
-  text-align: center;
-  width: 50%
+  width: 50%;
+  flex-direction: column;
 }
 
 .signup--container p {
