@@ -107,6 +107,14 @@ height: 5rem
 
 .signup--container {
   margin-top: 1rem;
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  width: 50%
+}
+
+.signup--container p {
+  margin-right: 3rem
 }
 
 
