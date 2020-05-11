@@ -105,19 +105,23 @@ height: 5rem
   font-weight: bolder;
 }
 
-.banner--container h1 {
-
+.signup--container {
+  margin-top: 1rem;
 }
+
+
+
+/* typing effect */
 
 .banner--container h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid grey; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   /* letter-spacing: .15em; Adjust as needed */
   animation: 
-    typing 3.5s steps(20, end),
+    typing 5s steps(56, end),
     blink-caret  1s step-end infinite;
 }
 
