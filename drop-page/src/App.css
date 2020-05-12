@@ -122,9 +122,31 @@ height: 5rem
 .button--container {
   margin: 0 auto;
   width: 50%;
-  text-align: center
+  text-align: center;
+  font-weight: bolder;
 }
 
+.button--container button {
+  color: red;
+  margin: 2rem;
+  padding: 10px 20px;
+  width: 20%;
+  background: none;
+  border: 1px solid blue
+}
+
+
+/* team container  */
+
+.team--container {
+  background-color: wheat;
+  height: 100vh
+}
+
+.team--title--container {
+  text-align: center;
+  font-family: 'Spartan', sans-serif;
+}
 
 /* typing effect */
 
