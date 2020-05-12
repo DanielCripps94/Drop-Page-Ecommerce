@@ -146,6 +146,23 @@ height: 5rem
 .team--title--container {
   text-align: center;
   font-family: 'Spartan', sans-serif;
+  position: relative;
+  font-weight: bold;
+}
+
+.gap {
+  margin-bottom: 5rem;
+}
+
+.team--image--container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-evenly;
+}
+
+.team--image--container img {
+  height: 10rem
 }
 
 /* typing effect */
