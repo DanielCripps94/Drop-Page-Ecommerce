@@ -12,11 +12,22 @@ export default class selectBox extends component {
         SelectedOption: null
     }
 
-    render() {
-        return (
-            <div>
+    handleOnChange = SelectedOption => {
+        this.setState(
+            {SelectedOption},
+            () => console.log('Option Selected:', this.state.SelectedOption)
+        )
+    }
 
-            </div>
+    render() {
+
+        const { SelectedOption } = this.state
+        return (
+            <Select 
+            value={ SelectedOption }
+            onChange={this.handleOnChange}
+            options={options}
+            />
         )
     }
 }
