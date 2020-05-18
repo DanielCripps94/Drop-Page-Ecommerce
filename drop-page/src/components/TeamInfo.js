@@ -17,3 +17,4 @@ export default class TeamInfo extends Component {
         )
     }
 }
+
