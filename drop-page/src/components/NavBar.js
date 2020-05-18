@@ -1,5 +1,7 @@
 import React, { Component }from 'react'
 import { Link } from 'react-router-dom'
+import  SelectBox from './SelectBox'
+
 class NavBar extends Component {
 
     render( ) {
@@ -14,6 +16,7 @@ class NavBar extends Component {
                             <li> Pricing</li>
                             <li> Services</li>
                             <li> Sign in</li>
+                            <SelectBox />
                         </ul>
                     </div> 
                 </nav>
