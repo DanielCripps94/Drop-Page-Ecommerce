@@ -92,6 +92,7 @@ height: 5rem
 .info--container {
   text-align: center;
   font-family: 'Spartan', sans-serif;  
+  align-items: center;
 }
 
 .homepageimage--container img {
@@ -152,6 +153,11 @@ height: 5rem
 
 .gap {
   margin-bottom: 5rem;
+}
+
+.select--box--container {
+  width: 40%;
+  margin: auto 0
 }
 
 .team--image--container {

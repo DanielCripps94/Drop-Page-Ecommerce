@@ -16,7 +16,7 @@ class NavBar extends Component {
                             <li> Pricing</li>
                             <li> Services</li>
                             <li> Sign in</li>
-                            <SelectBox />
+                            
                         </ul>
                     </div> 
                 </nav>

@@ -1,12 +1,12 @@
-import React from 'react'
-import select from 'react-select'
+import React, { Component } from 'react'
+import Select from 'react-select'
 
 const options = [
     {value: 'Team', label: 'Team'},
     {value: 'Organisation', label: 'Organisation'}
 ]
 
-export default class selectBox extends component {
+export default class SelectBox extends Component {
 
     state = {
         SelectedOption: null
@@ -23,11 +23,13 @@ export default class selectBox extends component {
 
         const { SelectedOption } = this.state
         return (
+            <div className='select--box--container'>
             <Select 
             value={ SelectedOption }
             onChange={this.handleOnChange}
             options={options}
             />
+            </div>
         )
     }
 }
